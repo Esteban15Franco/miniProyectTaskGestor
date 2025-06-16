@@ -40,18 +40,19 @@ public class TaskGestor {
             opt = s.nextInt();
 
             switch (opt){
-                case 1 -> {
+                case 1 :
                     addTask();
-                }
+                    break;
 
-                case 2 -> {
+
+                case 2 :
                     showTasks();
-                }
+                    break;
 
-                case 3 ->{
+                case 3 :
                     System.out.println("Hasta luego...");
                     System.exit(0);
-                }
+
             }
 
         }while (opt != 3);
@@ -69,7 +70,7 @@ public class TaskGestor {
             String task = s.nextLine();
             setTask(task);
 
-            if (task.equals("")){
+            if (task.isEmpty()){
                 System.out.println("Tarea vacia. no se agregara");
                 i--;
             }else {
