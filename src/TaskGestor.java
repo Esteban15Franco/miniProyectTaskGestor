@@ -71,7 +71,7 @@ public class TaskGestor {
             setTask(task);
 
             if (task.isEmpty()){
-                System.out.println("Tarea vacia. no se agregara");
+                System.out.println("Tarea vacia. no se agregara.");
                 i--;
             }else {
                 arrTask[i] = getTask();
