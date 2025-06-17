@@ -28,4 +28,4 @@ Se resolvió un problema con el `Scanner` que dejaba caracteres pendientes en el
 
 ---
 
-El objetivo es seguir mejorando este programa paso a paso mientras se aprende más sobre programación orientada a objetos en Java.
+El objetivo es seguir mejorando este programa paso a paso mientras se aprende más sobre programación orientada a objetos en Java
